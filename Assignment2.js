@@ -42,8 +42,8 @@ const products = [
         price: 19500,
     },
   ];
-  const productList = products.map((prod) => prod.id)
-  
-  const Prod = products.filter((prod) => prod.id )
-  
-  console.log(products)
+  const list = reservedProducts.map((res)=>res.id);
+
+  const reservedlist = products.filter((res)=>list.includes(res.id)
+  );
+  console.log(reservedlist)
